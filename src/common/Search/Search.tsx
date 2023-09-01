@@ -8,6 +8,7 @@ const Search: React.FC= () => {
     return (
         <form
             className="text-[14px] mt-9 flex flex-row items-center justify-center"
+            onSubmit={(e)=>e.preventDefault()}
         >
             <input
                 type="text"

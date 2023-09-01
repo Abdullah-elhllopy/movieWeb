@@ -95,7 +95,7 @@ const Section: FC<SectionProps> = ({
           <div className="line" />
         </h3>
         {!showSimilarShows && (
-          <Link className={linkStyle}>
+          <Link to={'/'} className={linkStyle}>
             View all
           </Link>
         )}

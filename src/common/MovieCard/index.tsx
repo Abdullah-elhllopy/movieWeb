@@ -16,7 +16,7 @@ const MovieCard = ({
   return (
     <>
       <Link
-        // to={`/${category}/${id}`}
+        to={`/`}
         className="dark:bg-[#1f1f1f] bg-[#f5f5f5] rounded-lg relative group w-[170px] select-none xs:h-[250px] h-[216px] overflow-hidden"
       >
         <Image
